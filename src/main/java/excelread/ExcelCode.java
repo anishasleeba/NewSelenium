@@ -31,7 +31,7 @@ public class ExcelCode {
 		XSSFRow r = sh.getRow(row);
 		XSSFCell c = r.getCell(col);
 		int val =   (int) c.getNumericCellValue();  //convert double to int using typecasting
-		return String.valueOf(val);   //convert int to string using valueOf() method
+		return String.valueOf(val);   //convert int to string using valueOf() method test
 		//return val;
 	
 	}
